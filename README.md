@@ -1,6 +1,6 @@
-# High-Performance Log Analysis of BlueGene/L Systems
-[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C.svg?style=for-the-badge&logo=Apache-Spark&logoColor=white)](https://spark.apache.org/)
-[![HDFS](https://img.shields.io/badge/HDFS-2.7.3-%23265C99?style=for-the-badge)](https://hadoop.apache.org/)
+# High-Performance Log Analysis of BlueGene/L System
+<!-- [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C.svg?style=for-the-badge&logo=Apache-Spark&logoColor=white)](https://spark.apache.org/)
+[![HDFS](https://img.shields.io/badge/HDFS-2.7.3-%23265C99?style=for-the-badge)](https://hadoop.apache.org/) -->
 
 ## Abstract
 This project implements a multi-paradigm approach for analyzing 1.9M+ log entries from IBM's BlueGene/L supercomputer using:
@@ -18,7 +18,10 @@ Key findings include critical error patterns, hardware failure durations, and sy
 **Project Date:** July 2024
 
 ## 🛠️ Technical Stack
-![Tech Stack](https://via.placeholder.com/800x200.png?text=Apache+Spark+|+HDFS+|+Python+3.8+|+Jupyter+Notebooks)
+[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C.svg?style=for-the-badge&logo=Apache-Spark&logoColor=white)](https://spark.apache.org/)
+[![HDFS](https://img.shields.io/badge/HDFS-3.3.6-%23265C99?style=for-the-badge&logo=Apache-Hadoop&logoColor=white)](https://hadoop.apache.org/)
+[![Python](https://img.shields.io/badge/Python%203.8-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter_Notebooks-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)](https://jupyter.org/)
 
 ## 📊 Key Findings
 | Metric | Spark | MapReduce |
@@ -63,8 +66,9 @@ jupyter notebook analysis.ipynb
 # Update these values in the "using spark and hdfs" section
 namenode_ip = "172.20.10.5"
 namenode_port = "9000"
-hdfs_path = "/hduser/nipunserver/logs/BGL.log"
+hdfs_path = "/hduser/your_username/logs/BGL.log"
 ```
+
 
 ## Key Analyses
 
